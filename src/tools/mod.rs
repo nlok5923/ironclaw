@@ -23,4 +23,6 @@ pub use builder::{
 };
 pub use rate_limiter::RateLimiter;
 pub use registry::ToolRegistry;
-pub use tool::{ApprovalRequirement, Tool, ToolDomain, ToolError, ToolOutput, ToolRateLimitConfig};
+pub use tool::{
+    ApprovalRequirement, RiskLevel, Tool, ToolDomain, ToolError, ToolOutput, ToolRateLimitConfig,
+};
